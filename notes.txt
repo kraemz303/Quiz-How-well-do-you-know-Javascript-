@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="time" style="text-align:center"></div>
+    <div id="main"></div>
+       <script src="assets/js/index.js"></script>
+
+
+ <main>
+    <section class="quiz-title">
+         <h1>JavaScript Quiz</h1>
+    </section>
+    <div class="opener">
+          <p>How well do you know JavaScript fundamentals?</p>  
+          <!--Click test me to start quiz-->
+          <button id="test-me">Test Me</button>
+    </div> 
+    <div class="quiz">
+        <div class="question1">
+          1. What is a very useful tool to utilize for debugging?
+          <ul id="ans1" class="answer">
+            <li><button>a. JavaScript</button></li>
+            <li><button>b. terminal</button></li>
+            <li><button>c. loops</button></li>
+            <!--answer--> 
+            <li><button>d. console</button></li> 
+          </ul>
+        </div>
+        <!-- <div class="question2">
+          2. Arrays in JS can be used to store what?
+          <ul id="ans2" class="answer">
+            <li><button>a. strings and numbers</button></li>
+            <li><button>b. other arrays</button></li>
+            <li><button>c. booleans</button></li> 
+            <!--answer-->
+            <li><button>d. all of the above</button></li>
+          </ul>
+        </div>
+        <div class="question3">
+          3. Commonly used data types do not include?
+          <ul id="ans3" class="answer">
+            <li><button>a. strings</button></li>
+            <li><button>b. booleans</button></li>
+            <!--answer--> 
+            <li><button>c. alerts</button></li> 
+            <li><button>d. numbers</button></li>
+          </ul>
+        </div>
+        <div class="question4">
+          4. The condition in an "if" statement is enclosed with what?
+          <ul id="ans4" class="answer">
+            <li><button>a. quotes</button></li>
+            <!--answer--> 
+            <li><button>b. curly brackets</button></li>
+            <li><button>c. parenthesis</button></li> 
+            <li><button>d. square brackets</button></li>
+          </ul>
+        </div>
+        <div class="question5">
+          5. True or False: Strings cannot include numerical values.
+          <ul id="ans5" class="answer">
+            <li><button>True</button></li>
+            <!--answer--> 
+            <li><button>False</button></li>
+          </ul>
+        </div>     -->
+      </div>     
+     <footer></footer>
+ </main>
