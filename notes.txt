@@ -69,6 +69,7 @@
           </ul>
         </div>
         <div class="question5">
+        // changed to a muliple choice question
           5. True or False: Strings cannot include numerical values.
           <ul id="ans5" class="answer">
             <li><button>True</button></li>

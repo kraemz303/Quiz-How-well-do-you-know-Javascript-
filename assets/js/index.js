@@ -64,7 +64,7 @@ function userInput (){
   if (i === questionsArr.length){
     i++;
   }
-  form.classList.replace("hide","show");{ 
+  form.classList.replace("show","hide");{ 
 }
 }
 function scoreTest(){
