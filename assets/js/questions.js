@@ -19,4 +19,18 @@ var questionsArr = [{
     opt3:"alerts",
     opt4:"numbers",
     correct:"alerts",
+}, {
+    question: "The condition in an 'if' statement is enclosed with what?",
+    opt1:"quotes",
+    opt2:"curly brackets",
+    opt3:"parenthesis",
+    opt4:"square brackets",
+    correct:"parenthesis",
+},{
+    question: "Which of the following is correct about JavaScript?",
+    opt1:"JavaScript is an Object-Based language",
+    opt2:"JavaScript is Assembly-language",
+    opt3:"JavaScript is an Object-Oriented language",
+    opt4:"JavaScript is a High-level language",
+    correct:"JavaScript is an Object-Based language",
 }]

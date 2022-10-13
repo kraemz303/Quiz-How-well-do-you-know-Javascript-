@@ -9,8 +9,10 @@ var btn1 = document.querySelector("#btn1");
 var btn2 = document.querySelector("#btn2");
 var btn3 = document.querySelector("#btn3");
 var btn4 = document.querySelector("#btn4");
+var form = document.querySelector(".form");
 var secondsLeft = 20;
 var i = 0;
+
 
 
 //timer function    
@@ -30,22 +32,15 @@ function startTimer() {
 
 // if user does not answer all questions in 60 seconds,msg displays
 function sendMessage() {
-    timeEl.textContent = (" You're out of time! ");  
+    timeEl.textContent = (" Game Over! ");  
   }
-  
-
-
-
 
 // starting the quiz
 
 
 //display first question
 function displayQuestion (){
-  if (i === questionsArr.length){
-    //end quiz in form of function
-  }
-  //create another section to end quiz, replace show with hide with input and button
+   //create another section to end quiz, replace show with hide with input and button
   quiz.classList.replace("hide","show");
   question.textContent = questionsArr[i].question
   btn1.textContent = questionsArr[i].opt1
@@ -64,6 +59,20 @@ function checkAnswer (answer){
       displayQuestion()
     }
 }
+// unable to get quiz to hide and replace with the form
+function userInput (){
+  if (i === questionsArr.length){
+    i++;
+  }
+  form.classList.replace("hide","show");{ 
+}
+}
+function scoreTest(){
+  var score = (i - questionsArr[i].correct);
+  scoreTest()
+
+
+}
 //testMeBtn is supposed to start time & display first question
   testMeBtn.addEventListener("click", ()=>{
        startTimer();
@@ -71,14 +80,18 @@ function checkAnswer (answer){
        displayQuestion()
        console.log("click");
   })
+//unable to add form for user to input initials
   ans1Btn.addEventListener("click", ()=>{
     var ansClicked = this.event.target.textContent
     checkAnswer(ansClicked);
+    form.classList.add("hide");
     console.log(ansClicked);
   })
-// when answer is clicked, display next question 
 
-//tally right and wrong answers and give score
+
+//unable to store score or intials
+localStorage.setItem("score", "form", JSON.stringify(scoreTest, userInput));
+renderMessage();
 
 
 

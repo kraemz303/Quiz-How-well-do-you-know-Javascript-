@@ -23,8 +23,8 @@ body {
 
 .quiz-title h1 {
    margin: 0px;
-   padding: 50px;
    text-align: center;
+   padding-top: 10px;
    font-size: 60px;
    letter-spacing: .2rem;
 }
@@ -60,25 +60,23 @@ body {
     background-color:rgb(78, 157, 231);
 }
 
-/* .quiz {
-    margin: -400px 250px 10px 500px;
+.quiz {
     padding: 20px;
-    width: 50%;
+    width: 75%;
     font-family: 'Poppins', sans-serif;
-} */
+}
 
-/* .question5 {
+.question {
     font-size: 30px;
     padding: 20px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%) scale (.09);
-} */
+    font-family: 'Poppins', sans-serif;
+    
+
+}
 
 .answer li {
     padding: 10px;
-    margin: 10px 5px 10px -80px;
-    
+    margin: 10px 5px 10px -80px;  
    
 }
 
@@ -93,6 +91,8 @@ body {
     color: white;  
     border-radius: 5px;
     border: none;
+    text-align: center;
+   
 }
 
 .answer li button:hover {
